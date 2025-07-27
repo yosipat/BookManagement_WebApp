@@ -1,0 +1,61 @@
+.page{
+  display: flex;
+  padding: 20px;
+}
+
+.banner img{
+  min-width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.topbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter{
+  padding: 20px;
+}
+
+.filter button{
+  margin: 10px 0px;
+  width: 100%;
+}
+
+
+.filter input{
+  /* width: 100%; */
+  padding: 5px 10px;
+}
+
+.filter select{
+  width: 100%;
+  padding: 5px 10px;
+}
+.display{
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    /* background-color: rgb(35, 35, 35); */
+    font-size: 10px;
+    margin: 0;
+    justify-content: center;
+  }
+
+
+
+/* display by user login */
+.topbar .admin{
+  display: flex;
+}
+
+.topbar .user{
+  display: none;
+}

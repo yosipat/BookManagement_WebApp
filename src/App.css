@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+}
+
+:root {
+  --user-main-color: rgb(240, 240, 240);
+  --user-sec-color: #12296c;
+  --user-third-color: #fbda03;
+
+  --admin-main-color: black;
+  --admin-sec-color: #fbda03;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+
+/* styling theme by mode user/admin */
+.user {
+  background-color: var(--user-main-color);
+  color: black;
+  min-height: 100vh;
+}
+
+.user button{
+  background-color: var(--user-sec-color);
+  color: white;
+}
+
+.user h4,.user .book-detail-title{
+  color:var(--user-sec-color);
+}
+
+
+
+.admin {
+  background-color: var(--admin-main-color);
+  color: white;
+}
+
+.admin button{
+  background-color: var(--admin-sec-color);
+  color: black;
+}
+
+.admin h4,.admin .book-detail-title{
+  color:  var(--admin-sec-color);
+}
+
+
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

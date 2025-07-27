@@ -1,0 +1,30 @@
+
+.divLogin {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+ .divSubLogin {
+    margin-bottom: 10px;
+}
+
+.input1 {
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.input2 {
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.submitButton {
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+
+

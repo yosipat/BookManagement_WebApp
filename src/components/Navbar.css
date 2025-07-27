@@ -1,0 +1,38 @@
+.navbar {
+    /* background-color: black;
+    color: white; */
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.navbar button {
+    margin: 0px 5px;
+}
+
+.show {
+    display: inline;
+}
+
+.hide {
+    display: none;
+}
+
+.classAdmin{
+    background-color: red
+}

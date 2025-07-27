@@ -1,0 +1,19 @@
+.divBookAdd {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.subDivBookAdd {
+    margin-bottom: 10px;
+}
+
+.inputBookAdd {
+    width: 100%;
+    padding: 8px;
+}
+
+.buttonBookAdd {
+    padding: 10px;
+    width: 100%;
+}
